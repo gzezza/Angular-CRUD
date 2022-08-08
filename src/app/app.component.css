@@ -1,0 +1,10 @@
+img{
+    width: 70px;
+    padding-left: 20px;
+}
+
+
+#btnSand:focus{
+    box-shadow: none;
+}
+

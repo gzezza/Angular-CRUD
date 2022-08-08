@@ -1,0 +1,24 @@
+{
+  "drinks": [
+    {
+      "name": "Vodka com Água de coco",
+      "price": "120",
+      "id": 2
+    },
+    {
+      "name": "Cachaça",
+      "price": "51",
+      "id": 3
+    },
+    {
+      "name": "Ice",
+      "price": "12",
+      "id": 4
+    },
+    {
+      "name": "Cerveja",
+      "price": "8",
+      "id": 5
+    }
+  ]
+}

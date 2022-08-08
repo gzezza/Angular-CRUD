@@ -1,0 +1,72 @@
+#container{
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+
+h1{
+    margin-bottom: 50px;
+    text-shadow: 2px -1px 1px #dec129;
+}
+
+.table{
+    width: 50%;
+    border: 2px solid #dec129;
+    
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+th{
+    color: #dec129;
+}
+
+button{
+    background-color: #dec129;  
+    border: 2px solid black; 
+}
+
+#btn-add{
+    transition: .4s;
+}
+
+#btn-add:hover{
+    font-weight: bold;
+    border-radius: 7px;    
+}
+
+td button{
+    border-radius: 50%;
+}
+
+/*ICONS EDIT/DELETE: */
+
+.bi-pencil-fill{
+    display: none;
+}
+
+#btn-edit:hover > .bi-pencil-fill{
+    display: block;
+}
+
+#btn-edit:hover > .bi-pencil{
+    display: none;
+}
+
+.bi-trash3-fill{
+    display: none;
+}
+
+#btn-delete:hover > .bi-trash3-fill{
+    display: block;
+}
+
+#btn-delete:hover > .bi-trash3{
+    display: none;
+}
+
+
